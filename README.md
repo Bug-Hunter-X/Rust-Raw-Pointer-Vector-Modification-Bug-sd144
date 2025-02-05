@@ -1,0 +1,1 @@
+This repository contains a simple example of a common bug in Rust when working with raw pointers and vectors. The bug arises from modifying a vector through a raw pointer after changing the vector's length. This can cause undefined behavior and unexpected results. The solution demonstrates a safe and correct approach to modifying the vector's elements.
